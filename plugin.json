@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "incwo-business-workflows",
+  "version": "0.1.0",
+  "description": "Devis, factures et stocks incwo / incwo quotes, invoices and stock / presupuestos, facturas y existencias de incwo",
+  "author": {
+    "name": "Guillaume Besse",
+    "url": "https://go.incwo.com"
+  },
+  "homepage": "https://go.incwo.com/agents/",
+  "repository": "https://github.com/gbesse/incwo-dot-plugin",
+  "license": "MIT",
+  "keywords": ["incwo", "crm", "mcp", "business"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "incwo Business Workflows",
+        "shortDescription": "Gestion incwo / incwo workflows / Gestión incwo",
+        "longDescription": "Préparez les suivis de devis, les rappels de factures et les alertes de stock. / Prepare quote follow-ups, invoice reminders and stock alerts. / Prepare seguimientos de presupuestos, recordatorios de facturas y alertas de existencias."
+      }
+    }
+  }
+}
