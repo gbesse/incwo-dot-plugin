@@ -13,3 +13,12 @@ Publiez ou installez ce dossier depuis une source de plugins compatible avec le 
 Les [dots peuvent utiliser les plugins autorisés](https://learn.chatgpt.com/docs/dots), mais la présence de ce dépôt sur GitHub ne l'inscrit pas automatiquement au répertoire public OpenAI. La connexion, les droits, le déploiement et le fonctionnement dans un dot réel restent à vérifier avec un compte éligible. Ce dépôt ne remplace pas les garde-fous natifs de ChatGPT ou d'incwo.
 
 Licence MIT.
+
+
+## 2026-11-12 — FR / EN / ES
+
+FR : Précontrôle local des relances : versions, litiges, solde, échéance et contact. `node tools/reminder-preflight.mjs examples/reminder-preflight.json fr` produit des candidats, sans connexion incwo ni envoi ; les versions sont fournies par l’appelant.
+
+EN: Offline reminder preflight checks source versions, disputes, balance, due date and contact. `node tools/reminder-preflight.mjs examples/reminder-preflight.json en` produces candidates without incwo access or sending; versions are caller supplied.
+
+ES: Precontrol local de recordatorios: versiones, disputas, saldo, vencimiento y contacto. `node tools/reminder-preflight.mjs examples/reminder-preflight.json es` produce candidatos sin conexión incwo ni envío; versiones proporcionadas por el llamante.

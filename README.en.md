@@ -13,3 +13,8 @@ Publish or install this folder from a plugin source supporting Agent Plugins. Th
 [Dots can use authorized plugins](https://learn.chatgpt.com/docs/dots), but publishing this repository on GitHub does not automatically list it in OpenAI's public directory. Connection, permissions, deployment, and behavior in a real dot remain to be tested with an eligible account. This repository does not replace ChatGPT or incwo's native safeguards.
 
 MIT licensed.
+
+
+## 2026-11-12
+
+Offline reminder preflight checks source versions, disputes, balance, due date and contact. `node tools/reminder-preflight.mjs examples/reminder-preflight.json en` produces candidates without incwo access or sending; versions are caller supplied.
