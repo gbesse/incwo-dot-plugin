@@ -1,0 +1,17 @@
+{
+  "asOf": "2026-11-12",
+  "currentVersions": {
+    "invoice-1": "v2"
+  },
+  "invoices": [
+    {
+      "id": "invoice-1",
+      "sourceVersion": "v2",
+      "status": "open",
+      "outstandingCents": 1200,
+      "currency": "EUR",
+      "dueDate": "2026-11-01",
+      "contactId": "contact-local"
+    }
+  ]
+}

@@ -13,3 +13,8 @@ Publique o instale esta carpeta desde una fuente de plugins compatible con Agent
 Los [dots pueden usar plugins autorizados](https://learn.chatgpt.com/docs/dots), pero publicar este repositorio en GitHub no lo incorpora automáticamente al directorio público de OpenAI. La conexión, los permisos, el despliegue y el funcionamiento en un dot real aún deben probarse con una cuenta apta. Este repositorio no sustituye las protecciones nativas de ChatGPT o incwo.
 
 Licencia MIT.
+
+
+## 2026-11-12
+
+Precontrol local de recordatorios: versiones, disputas, saldo, vencimiento y contacto. `node tools/reminder-preflight.mjs examples/reminder-preflight.json es` produce candidatos sin conexión incwo ni envío; versiones proporcionadas por el llamante.

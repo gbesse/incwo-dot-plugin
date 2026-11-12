@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "incwo-business-workflows",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Devis, factures et stocks incwo / incwo quotes, invoices and stock / presupuestos, facturas y existencias de incwo",
   "author": {
     "name": "Guillaume Besse",
@@ -10,7 +10,12 @@
   "homepage": "https://go.incwo.com/agents/",
   "repository": "https://github.com/gbesse/incwo-dot-plugin",
   "license": "MIT",
-  "keywords": ["incwo", "crm", "mcp", "business"],
+  "keywords": [
+    "incwo",
+    "crm",
+    "mcp",
+    "business"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
